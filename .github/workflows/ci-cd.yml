@@ -38,3 +38,5 @@ jobs:
         IMAGE_NAME=${{ secrets.DOCKER_USERNAME }}/flask-docker-app:latest
         docker tag ${{ github.repository }} $IMAGE_NAME
         docker push $IMAGE_NAME
+
+   
